@@ -48,8 +48,7 @@ where each descriptor \(f_j\) may include an **“inside” constant** \(C_j\). 
 
 - **Self-Test Suite**  
   - `test_iBART.R` runs a zero-noise experiment to verify recovery of  
-    \(\displaystyle y = 5\log(x_2 + 1.5) + 2\log(x_4 + 0.3)\)  
-  - Generates diagnostic plots in `Rplots.pdf`  
+    \(\displaystyle y = 5\log(x_2 + 1.5) + 2\log(x_4 + 0.3)\)   
 
 ---
 
@@ -137,8 +136,6 @@ library(testthat)
 
 test_dir("R/tests")
 ```
-
-You should see a zero RMSE result and confirmation that the true formula was recovered. Sample plots are saved in `Rplots.pdf`.
 
 ---
 
